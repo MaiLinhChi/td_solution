@@ -1,0 +1,8 @@
+.nav-item {
+    color: var(--white-color);
+    font-size: 18px;
+
+    + .nav-item {
+        margin-left: 80px;
+    }
+}

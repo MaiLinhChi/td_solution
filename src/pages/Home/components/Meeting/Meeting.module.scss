@@ -1,0 +1,49 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+img {
+    width: 757px;
+    height: 531px;
+    object-fit: cover;
+}
+
+.text {
+    width: 100%;
+    max-width: 549px;
+
+    .header {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+
+    .title {
+        font-size: 60px;
+        line-height: 81px;
+        font-weight: 700;
+        margin-right: 10px;
+        color: var(--primary-title);
+    }
+
+    .description {
+        font-size: 24px;
+        line-height: 36px;
+        color: var(--text-color);
+        letter-spacing: -0.015em;
+        font-weight: 400;
+    }
+
+    .company-name {
+        margin-top: 10px;
+        font-size: 20px;
+        line-height: 30px;
+        color: var(--primary-color);
+    }
+
+    .custom-btn {
+        margin-top: 13px;
+    }
+}
